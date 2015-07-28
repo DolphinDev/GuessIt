@@ -62,6 +62,7 @@ public class GuessIt : MonoBehaviour {
 			nextGuess();
 		} else if (Input.GetKeyDown (KeyCode.Return)) {
 			print (" I won!");
+			uGame();
 		}
 
 
